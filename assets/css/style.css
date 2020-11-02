@@ -1,0 +1,41 @@
+body {
+    margin: 10%;
+    padding: 10%;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#pedestal {
+    margin: 4px;
+    padding: 4px;
+    height: 40%;
+}
+
+.button{
+    border: 2px solid white;
+    background-color: deepskyblue;
+    padding: 16px 32px; 
+    text-align: center;
+    font-size: 32px;
+    transition-duration: 0.2s;
+    cursor: pointer;
+    color: ghostwhite;
+    border-radius: 8px;
+    margin: auto;
+    position: static;
+    margin-right: 10%;
+}
+
+#button_yes:hover{
+    color: aquamarine;
+    border: 2px solid  aquamarine;
+}
+
+#button_no:hover {
+    color: rgb(255, 186, 159);
+    border: 2px solid  rgb(255, 186, 159);
+}
+
+#button_group{
+    /* margin: auto; */
+    margin-top: 10%;
+}
